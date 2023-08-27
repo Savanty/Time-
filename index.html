@@ -20,7 +20,7 @@ alert("Bilhete sera validado apos o pagamento do pix.\nFACA 10 MINUTOS ANTES DA 
 </script>
 
 <script>
-function checkboxControl(j) { var total = 0; var elem = document.getElementsByClassName("checkbox"); var error = document.getElementById("error"); for (var i = 0; i < elem.length; i++) { if (elem[i].checked == true) { total = total + 1; } if (total > 5) { error.textContent = "VOCE ATINGIU OS 5  TIME,\n ENVIE A PULE"; elem[j].checked = false; return false; }
+function checkboxControl(j) { var total = 0; var elem = document.getElementsByClassName("checkbox"); var error = document.getElementById("error"); for (var i = 0; i < elem.length; i++) { if (elem[i].checked == true) { total = total + 1; } if (total > 10) { error.textContent = "VOCE ATINGIU OS 10  TIME,\n ENVIE A PULE"; elem[j].checked = false; return false; }
  }
   }
 </script>
